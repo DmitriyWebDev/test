@@ -1,0 +1,13 @@
+// Libs
+
+@import "libs/bootstrap-grid-1200px-60cols/bootstrap-grid-1200px-60cols";
+
+// Custom
+
+@import "fonts";
+@import "home";
+
+body {
+  background-image: url("../img/Rydic.jpg");
+  font-family: "RobotoRegular";
+}
