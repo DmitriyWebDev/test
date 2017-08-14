@@ -11,3 +11,17 @@ body {
   background-image: url("../img/Rydic.jpg");
   font-family: "RobotoRegular";
 }
+
+.boxes-wrap {
+  border-radius: 4px;
+  box-shadow: black 1px 1px 1px;
+  transform: rotate(7deg);
+}
+
+a {
+  display: flex
+}
+
+body{
+  background: none;
+}

@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --progress",
     "deploy": "cross-env NODE_ENV=production webpack --progress"
   },
   "author": "D-man",
   "license": "ISC",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {
+        "browsers": "last 20 versions"
+      }
+    }
+  },
   "devDependencies": {
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.4",
@@ -17,6 +23,8 @@
     "file-loader": "^0.11.2",
     "imports-loader": "^0.7.1",
     "node-sass": "^4.5.3",
+    "postcss-load-config": "^1.2.0",
+    "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
     "script-loader": "^0.7.0",
     "source-map-loader": "^0.2.1",
